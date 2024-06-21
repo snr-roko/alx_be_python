@@ -1,14 +1,14 @@
 # Prompting user for monthly income
 
-income = int(input("Enter your monthly income: "))
+montly_income = int(input("Enter your monthly income: "))
 
 # Prompting user for total montly expenses
 
-expenses = int(input("Enter your total monthly expenses: "))
+monthly_expenses = int(input("Enter your total monthly expenses: "))
 
 # Calculating monthly savings
 
-monthly_savings = income - expenses
+monthly_savings = monthly_income - monthly_expenses
 
 # Calculating projected savings after one year using the formular: 
 # Projected Savings = Monthly Savings * 12 + (Monthly Savings * 12 * 0.05)
