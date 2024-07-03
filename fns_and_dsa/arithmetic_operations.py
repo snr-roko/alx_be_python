@@ -9,7 +9,7 @@ def perform_operation(num1, num2, operation):
     case 'divide':
       if num2 == 0:
         return "Undefined"
-      else:
+      elif num2 != 0:
         return num1 / num2
     case _:
       return "Sorry this operation is not supported \nEnter one of the four operations" 
