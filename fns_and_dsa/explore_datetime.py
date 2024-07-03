@@ -9,7 +9,7 @@ def display_current_datetime():
 
 
 def calculate_future_date():
-  days = input("Lets go into the future \nEnter the number of days ")
+  days = input("Enter the number of days to add to the current date: ")
   today = date.today()
   if days.isdigit():
     days = int(days)
