@@ -23,4 +23,4 @@ if temperature.isdigit():
   else:
     print("Please enter F for Fahrenheiht and C for Celsius")
 else:
-  print("Enter a valid integer for the temperature value!!")
+  print("Invalid temperature. Please enter a numeric value.")
